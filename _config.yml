@@ -6,7 +6,7 @@ picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: assets/documents/resume.pdf
-url: ''
+url: 'zeyuzhao/'
 permalink: '/:title/'
 disqus:
   shortname: mydisqus
