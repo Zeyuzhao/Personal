@@ -1,0 +1,75 @@
+name: Zach Zhao
+bio: live and learn
+description: My personal corner on the internet
+external-image: false
+picture: assets/images/profile.jpg
+resume: true
+resume-external: true
+resume-url: assets/documents/resume.pdf
+url: ''
+permalink: '/:title/'
+disqus:
+  shortname: mydisqus
+  categories:
+    # - blog
+    # - project
+facebook: zeyuzachzhao
+twitter: thezachzhao
+github: zeyuzhao
+linkedin: zachzzhao
+email: thezachzhao@gmail.com
+authors:
+  zachzhao:
+    name: Zach Zhao
+    bio: live and learn
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: thezachzhao
+width: normal
+pagination:
+  enabled: false
+  sort_reverse: true
+  title: ':title'
+  per_page: 5
+  permalink: '/:num/'
+projects: true
+about: true
+blog: true
+read-time: true
+show-tags: true
+related: true
+post-advance-links:
+  - blog
+show-author: true
+animation: true
+defaults:
+  - scope:
+      path: ''
+      layout: post
+    values:
+      hidden: false
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
+  - jekyll-fontawesome-svg
+jekyll-mentions:
+  base_url: 'https://github.com'
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+exclude:
+  - travis.sh
+  - Rakefile
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - FAQ.md
+  - node_modules
+  - vendor
+  - archive
