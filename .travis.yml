@@ -5,12 +5,17 @@
 #   fqdn: zachzhao.dev
 #   on:
 #     branch: master
+sudo: required
+language: ruby
 
 script:
 - gem update --system
+
 deploy:
-  provider: pages:git
+  provider: pages
+  skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   fqdn: zachzhao.dev
-  edge: true # opt in to dpl v2
+  on:
+    branch: master
