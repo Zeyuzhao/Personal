@@ -11,9 +11,9 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
-          key: ${{ runner.os }}-GEM-${{ hashFiles('**/Gemfile.lock') }}
+          key: ${{ runner.os }}-GEMS-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-GEM-
+            ${{ runner.os }}-GEMS-
       - name: Build & Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
