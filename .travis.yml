@@ -5,9 +5,10 @@
 #   fqdn: zachzhao.dev
 #   on:
 #     branch: master
+
+script:
+- gem update --system
 deploy:
-  before_install:
-    - gem update --system
   provider: pages:git
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
