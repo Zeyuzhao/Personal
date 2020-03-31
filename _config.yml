@@ -3,7 +3,7 @@ bio: live and learn
 description: My personal corner on the internet
 external-image: false
 picture: assets/images/profile.jpg
-resume: true
+resume: false
 resume-external: true
 resume-url: assets/documents/pre-resume.pdf
 url: 'https://zeyuzhao.github.io/personal'
