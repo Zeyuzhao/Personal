@@ -1,0 +1,20 @@
+name: Check run
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  create-file:
+    runs-on: ubuntu-latest
+    steps:
+      # Create check run
+      - uses: octokit/request-action@v2.x
+        id: update_site_cname
+        with:
+          route: PUT /repos/:repo/pages
+          repository: ${{ github.repository }}
+          cname: "zachzhao.dev"
+          source: "gh-pages"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
