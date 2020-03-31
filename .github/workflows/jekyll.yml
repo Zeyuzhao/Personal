@@ -15,6 +15,6 @@ jobs:
           route: PUT /repos/:repo/pages
           repository: ${{ github.repository }}
           cname: "zachzhao.dev"
-          source: "gh-pages"
+          source: "gh-pages /"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
