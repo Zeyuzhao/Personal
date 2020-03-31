@@ -1,8 +1,6 @@
 # Zach's Personal Website
 
 This my personal website using GitHub Pages, Jekyll and the Indigo theme by Kopplin.
-
- 
 ## Setup
 
 1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
