@@ -14,7 +14,7 @@ jobs:
         name: Update CNAME and source
         id: update_site_cname
         with:
-          route: PUT /repos/:repo/pages
+          route: PUT /repos/:repository/pages
           repository: ${{ github.repository }}
           cname: "zachzhao.dev"
           source: "gh-pages /"
