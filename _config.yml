@@ -6,7 +6,7 @@ picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: assets/documents/pre_resume.pdf
-baseurl: 'https://zeyuzhao.github.io/personal'
+url: 'https://zeyuzhao.github.io/personal/'
 permalink: '/:title/'
 disqus:
   shortname: mydisqus
