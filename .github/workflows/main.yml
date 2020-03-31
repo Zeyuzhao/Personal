@@ -13,7 +13,7 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-GEM-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
+            ${{ runner.os }}-GEM-
       - name: Build & Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
