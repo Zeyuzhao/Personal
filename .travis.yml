@@ -7,7 +7,7 @@
 #     branch: master
 
 language: ruby
-
+dist: bionic
 before_deploy: 
   - gem update --system
 deploy:
