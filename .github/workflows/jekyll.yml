@@ -1,15 +1,17 @@
-name: Check run
+name: Update User Settings
 on:
   push:
     branches:
-      - gh-pages
+      - master
 
 jobs:
   create-file:
     runs-on: ubuntu-latest
     steps:
-      # Create check run
+      - uses: actions/checkout@v2
+      # Create request
       - uses: octokit/request-action@v2.x
+        name: Update CNAME and source
         id: update_site_cname
         with:
           route: PUT /repos/:repo/pages
@@ -18,3 +20,5 @@ jobs:
           source: "gh-pages /"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ github.GITHUB_ACTOR }}
