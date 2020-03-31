@@ -15,4 +15,4 @@ jobs:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   GITHUB_REPOSITORY: ${{ github.GITHUB_REPOSITORY }}
                   GITHUB_ACTOR: ${{ github.GITHUB_ACTOR }}
-              uses: sylvainmetayer/jekyll-deploy-gh-pages@master
+              uses: zeyuzhao/jekyll-deploy-gh-pages@master
