@@ -7,7 +7,7 @@ resume: true
 # With external == false, site.url will be appended to the site.
 resume-external: false
 resume-url: assets/documents/pre-resume.pdf
-url: 'https://zeyuzhao.github.io/'
+url: 'https://zachzhao.dev'
 permalink: '/:title/'
 disqus:
   shortname: mydisqus
