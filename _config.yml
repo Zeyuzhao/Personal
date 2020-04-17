@@ -49,6 +49,9 @@ defaults:
       layout: post
     values:
       hidden: false
+
+analytics-google: 'UA-163893868-1'
+
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
