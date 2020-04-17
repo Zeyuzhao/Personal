@@ -3,8 +3,6 @@
 This my personal website using GitHub Pages, Jekyll and the Indigo theme by Kopplin.
 ## Setup
 
-
-
 1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
 2. Clone the forked repo on your machine
 3. Enter the cloned folder via terminal and run `bundle install`
