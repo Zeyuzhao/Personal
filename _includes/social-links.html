@@ -1,30 +1,30 @@
 <div class="social-links">
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <a aria-label="GitHub" class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank" rel="noreferrer">
             <svg class="icon"><use xlink:href='#fab.fa-github'></use></svg>
         </a>
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <a aria-label="LinkedIn" class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noreferrer">
             <svg class="icon"><use xlink:href='#fab.fa-linkedin'></use></svg>
         </a>
     {% endif %}
 
     {% if site.facebook %}
-        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
+        <a aria-label="Facebook" class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank" rel="noreferrer">
             <svg class="icon"><use xlink:href='#fab.fa-facebook'></use></svg>
         </a>
     {% endif %}
 
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <a aria-label="Twitter" class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noreferrer">
             <svg class="icon"><use xlink:href='#fab.fa-twitter'></use></svg>
         </a>
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+        <a aria-label="Email" class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
             <svg class="icon"><use xlink:href='#fas.fa-envelope'></use></svg>
         </a>
     {% endif %}
