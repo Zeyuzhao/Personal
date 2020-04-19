@@ -27,6 +27,7 @@ We use the following propagation rule:
 $$H^{(l+1)}_i = ReLU(\theta^{(l)}_{1}H^{(l)}_i + \phi(\{\theta^{(l)}_{2}H^{(l)}_a | a \in N(i)\})$$
 
 We use the following cross-entropy loss:
+
 $$L(\textbf{1}, G) = \sum_{i = 1}^{n}[\textbf{1}_{i}log(f_{\theta}(G)) + (1 - \textbf{1}_{i})log(1 - f_{\theta}(G))]$$
 
 ## Graphics
