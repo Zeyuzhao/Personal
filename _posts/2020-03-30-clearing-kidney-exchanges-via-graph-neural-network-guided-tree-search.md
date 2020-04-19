@@ -1,8 +1,7 @@
 ---
 title: Clearing Kidney Exchanges via Graph Neural Network Guided Tree Search
-date: 2020-03-30 16:46:15 Z
-categories:
-  - project
+date: 2020-03-30
+category: project
 tags:
   - deep-learning
   - pytorch

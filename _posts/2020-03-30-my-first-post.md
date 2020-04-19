@@ -1,8 +1,7 @@
 ---
 title: My First Post
-date: 2020-03-30 00:00:00 Z
-categories:
-- blog
+date: 2020-03-30
+category: blog
 tags:
 - blog
 - Jekyll
