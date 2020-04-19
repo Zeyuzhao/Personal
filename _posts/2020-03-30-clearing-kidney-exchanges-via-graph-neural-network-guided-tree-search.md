@@ -1,17 +1,18 @@
 ---
 title: Clearing Kidney Exchanges via Graph Neural Network Guided Tree Search
-date: 2020-03-30
-category: project
-tags:
-  - deep-learning
-  - pytorch
-  - kidney-exchange
+layout: post
+date: '2020-03-30 16:46:15'
+tag:
+- deep-learning
+- pytorch
+- kidney-exchange
 externalLink: false
 image: "/assets/images/splash.jpg"
 headerImage: true
 projects: true
 hidden: false
 description: A geometric deep learning approach to solving kidney exchanges
+category: project
 author: zachzhao
 ---
 

@@ -1,15 +1,24 @@
 ---
 title: My First Post
+<<<<<<< HEAD
 date: 2020-03-30
 category: blog
 tags:
 - blog
 - Jekyll
 - GitHub pages
+=======
+>>>>>>> parent of fa3163d... Merge branch 'master' of https://github.com/Zeyuzhao/zeyuzhao.github.io
 layout: post
+date: '2020-03-30'
 image: "/assets/images/table.jpg"
 headerImage: true
+tag:
+- blog
+- Jekyll
+- GitHub pages
 star: false
+category: blog
 author: zachzhao
 hidden: false
 description: a plan for my site

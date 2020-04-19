@@ -1,32 +1,20 @@
----
-title: Personal
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-  values:
-    hidden: false
 name: Zach Zhao
 bio: live and learn
 description: My personal corner on the internet
 external-image: false
 picture: assets/images/profile.jpg
 resume: true
+# With external == false, site.url will be appended to the site.
 resume-external: false
 resume-url: assets/documents/pre-resume.pdf
-url: https://zachzhao.dev
-permalink: "/:title/"
+url: 'https://zachzhao.dev'
+permalink: '/:title/'
 disqus:
   shortname: mydisqus
-  categories: 
-facebook: 
+  categories:
+    # - blog
+    # - project
+facebook: # zeyuzachzhao
 twitter: thezachzhao
 github: zeyuzhao
 linkedin: zachzzhao
@@ -42,9 +30,9 @@ width: normal
 pagination:
   enabled: false
   sort_reverse: true
-  title: ":title"
+  title: ':title'
   per_page: 5
-  permalink: "/:num/"
+  permalink: '/:num/'
 projects: true
 about: true
 blog: true
@@ -52,31 +40,39 @@ read-time: true
 show-tags: true
 related: true
 post-advance-links:
-- blog
+  - blog
 show-author: true
 animation: true
-analytics-google: UA-163893868-1
+defaults:
+  - scope:
+      path: ''
+      layout: post
+    values:
+      hidden: false
+
+analytics-google: 'UA-163893868-1'
+
 plugins:
-- jekyll-seo-tag
-- jekyll-gist
-- jekyll-feed
-- jemoji
-- jekyll-admin
-- jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
 jekyll-mentions:
-  base_url: https://github.com
+  base_url: 'https://github.com'
 compress_html:
   ignore:
     envs:
-    - development
-    - stage
+      - development
+      - stage
 exclude:
-- travis.sh
-- Rakefile
-- README.md
-- Gemfile
-- Gemfile.lock
-- FAQ.md
-- node_modules
-- vendor
-- archive
+  - travis.sh
+  - Rakefile
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - FAQ.md
+  - node_modules
+  - vendor
+  - archive
