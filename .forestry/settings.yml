@@ -8,7 +8,7 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: _uploads
+  path: assets
   label: Uploads
   create: all
   match: "**/*"
