@@ -1,15 +1,16 @@
 ---
 title: My First Post
-layout: post
-date: '2020-03-30'
-image: "/assets/images/table.jpg"
-headerImage: true
-tag:
+date: 2020-03-30 00:00:00 Z
+categories:
+- blog
+tags:
 - blog
 - Jekyll
 - GitHub pages
+layout: post
+image: "/assets/images/table.jpg"
+headerImage: true
 star: false
-category: blog
 author: zachzhao
 hidden: false
 description: a plan for my site

@@ -1,8 +1,8 @@
 ---
-title: "Linear Regression"
+title: Linear Regression
+date: 2020-03-30 00:00:00 Z
 layout: post
-date: 2020-03-30
-image: /assets/images/markdown.jpg
+image: "/assets/images/markdown.jpg"
 headerImage: false
 tag:
 - markdown
@@ -12,3 +12,4 @@ category: blog
 author: zachzhao
 description: Markdown summary with different options
 ---
+

@@ -1,22 +1,28 @@
 ---
 title: Clearing Kidney Exchanges via Graph Neural Network Guided Tree Search
-layout: post
-date: '2020-03-30 16:46:15'
-tag:
+date: 2020-03-30 16:46:15 Z
+categories:
+- project
+tags:
 - deep-learning
 - pytorch
 - kidney-exchange
+<<<<<<< HEAD
 externalLink: false
 image: "/assets/images/splash.jpg"
+=======
+layout: post
+image: "/assets/images/table.jpg"
+>>>>>>> 21283d6e3fc642bcc95455ea4e2c902b9518f04e
 headerImage: true
 projects: true
 
 hidden: false
 description: A geometric deep learning approach to solving kidney exchanges
-category: project
 author: zachzhao
 ---
 
+<<<<<<< HEAD
 
 ## Summary
 Over the summer, I worked on applying deep learning techniques to help solve kidney exchanges.
@@ -35,3 +41,5 @@ $$L(\textbf{1}, G) = \sum_{i = 1}^{n}[\textbf{1}_{i}log(f_{\theta}(G)) + (1 - \t
 
 
 {% include mathjax.html %}
+=======
+>>>>>>> 21283d6e3fc642bcc95455ea4e2c902b9518f04e
