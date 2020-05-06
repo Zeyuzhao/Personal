@@ -32,7 +32,7 @@ a
 
 p
 	line-height: 1.7
-	color: $alpha
+	color: $beta
 	font-weight: 300
 	margin-bottom: 20px
 	letter-spacing: 0.4px
@@ -41,7 +41,7 @@ p
 		letter-spacing: 0.2px
 
 strong
-	font-weight: 400
+	font-weight: bold
 	color: #000
 
 ul,
@@ -90,7 +90,15 @@ figure.highlight
 	width: 100%
 	margin: 0
 
-code,
+code
+	padding: 2px 3px
+	font-family: $fontMonospace
+	font-size: 12px
+	vertical-align: middle
+	background: #eee
+	border-radius: 2px
+
+pre > code,
 tt
 	padding: 1px 0
 	font-family: $fontMonospace
@@ -98,6 +106,7 @@ tt
 	line-height: 20px
 	background: #fff
 	border-radius: 2px
+
 
 pre
 	box-sizing: border-box
