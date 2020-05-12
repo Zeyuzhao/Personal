@@ -3,7 +3,7 @@ bio: live and learn
 description: My personal corner on the internet
 external-image: false
 picture: assets/images/profile.jpg
-resume: true
+resume: false
 # With external == false, site.url will be appended to the site.
 resume-external: false
 resume-url: assets/documents/pre-resume.pdf
